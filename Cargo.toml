@@ -1,0 +1,17 @@
+[package]
+name = "rzd_trains"
+version = "0.1.0"
+authors = ["Irina A <irina.dev.78.04@gmail.com>"]
+edition = "2021"
+readme  = "README.md"
+license = "Apache-2.0/MIT"
+
+[dependencies]
+url = "2.2"
+chrono = "0.4"
+regex = "1.5"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+reqwest = { version = "0.11.6", features = ["blocking", "json", "cookies"] }
+tokio = { version = "1", features = ["full"] }
+log = "0.4.0"
